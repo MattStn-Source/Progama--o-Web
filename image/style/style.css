@@ -24,3 +24,12 @@
     height: 187px;
     border: 2px solid #bebebe;
 }
+#rodape {
+    width: 100%;
+    height: 136px;
+}
+#myheart {
+    width: 258px;
+    height: 289x;
+    float: right;
+}
