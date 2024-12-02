@@ -1,3 +1,7 @@
+body {
+    background-color: #0d0d0d;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
 #cabecario {
     width: 100%;
     height: 308px;
@@ -41,4 +45,66 @@
 }
 .textz {
     margin: 25px;
+}
+@media (max-width: 768px) {
+    #cabecario {
+        width: 100%;
+        height: 208px;
+    }
+    #perfil {
+        width: 132px;
+        height: 132px;
+    }
+    #pratospreferidos {
+        width: 129px;
+        height: 93px;
+    }
+    #moviespreferidos {
+        width: 129px;
+        height: 93px;
+    }
+    #rodape {
+        width: 100%;
+        height: 68px;
+    }
+    #myheart {
+        width: 88px;
+        height: 53x;
+        margin-right: 5px;
+    }
+    .textz {
+        font-size: 13px
+    }
+}
+@media (max-width: 480px) {
+    #cabecario {
+        width: 100%;
+        height: 308px;
+    }
+    #perfil {
+        width: 102px;
+        height: 102px;
+        border: 2px solid #f5f5f5;
+    }
+    #pratospreferidos {
+        width: 70px;
+        height: 97px;
+        margin-right: 1px;
+    }
+    #moviespreferidos {
+        width: 229px;
+        height: 187px;
+    }
+    #rodape {
+        width: 100%;
+        height: 76px;
+    }
+    #myheart {
+        width: 68px;
+        height: 59x;
+        margin-right: 5px;
+    }
+    .textz {
+        font-size: 13px
+    }
 }
